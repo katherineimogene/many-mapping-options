@@ -12,14 +12,29 @@ Required div in order for map to display
   <div id="map-canvas"></div>
 ```
 #### application.js
-##### HTML5 Geolocation
+This isn't object-oriented or MVC, it's soupy functional JS. 
+
+Use HTML5 geolocation to get current location. user must allow access.  callback is initialization method
 https://developer.mozilla.org/en-US/docs/Web/API/Geolocation/Using_geolocation
 
-##### Google Maps functions
-utilizing Google Maps Map and Marker objects.
+initialize function:
 
-Animations
+Using google.maps objects:
+LatLng 
+Map 
+
+And events
+addDomListener
+
+placeMarker function: 
+
+Using google.maps objects:
+Marker 
+Animation
 https://developers.google.com/maps/documentation/javascript/examples/marker-animations
+
+neither the initialize or placeMarker functions are namespaced or scoped. This is not great.
+
 
 #### application.css
 default div height is 0px, if we want our map to display we need to give it a height.
