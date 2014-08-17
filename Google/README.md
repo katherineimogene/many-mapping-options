@@ -15,22 +15,27 @@ Required div in order for map to display
 This isn't object-oriented or MVC, it's soupy functional JS. 
 
 Use HTML5 geolocation to get current location. user must allow access.  callback is initialization method
+
 https://developer.mozilla.org/en-US/docs/Web/API/Geolocation/Using_geolocation
 
 initialize function:
 
 Using google.maps objects:
-LatLng 
-Map 
+
+* LatLng 
+* Map 
 
 And events
-addDomListener
+
+* addDomListener
 
 placeMarker function: 
 
 Using google.maps objects:
-Marker 
-Animation
+
+* Marker 
+* Animation
+
 https://developers.google.com/maps/documentation/javascript/examples/marker-animations
 
 neither the initialize or placeMarker functions are namespaced or scoped. This is not great.
