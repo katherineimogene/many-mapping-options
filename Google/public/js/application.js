@@ -1,4 +1,4 @@
-////////////GEOLOCATIOR////////////////
+////////////GEOLOCATION////////////////
 navigator.geolocation.getCurrentPosition( function(position) {
   initialize(position.coords.latitude,position.coords.longitude)
 });
