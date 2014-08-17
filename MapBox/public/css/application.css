@@ -15,13 +15,3 @@ html, body {
 th {
   text-align: left;
 }
-
-#map-canvas {
-  height: 720px;
-  width: 80%;
-  border: 1px solid #ccc;
-  margin: 0 auto;
-}
-
-
-
