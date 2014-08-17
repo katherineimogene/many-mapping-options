@@ -1,0 +1,83 @@
+body {
+  margin: 0px;
+  font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;
+}
+#map {
+ position:absolute;
+ top:0;
+ bottom:0;
+ width:100%;
+}
+
+.user-popup {
+  height: 80px;
+  width: 200px;
+}
+
+.user-popup a:hover {
+  color: rgba(110, 204, 57, 0.6);
+}
+
+ul.social-media {
+  padding-left: 0px;
+}
+
+li.social-link {
+  list-style: none;
+  display: inline;
+  padding-right: 10px;
+}
+
+.boot-name {
+  text-decoration: none;
+  font-size: 1.5em;
+  font-weight: bold;
+  color: #3F3C3C;
+}
+
+.boot-stats {
+  z-index: 1000;
+  left: 5%;
+  top: 5%;
+  color: #2c3e50;
+  font-weight: 700;
+  margin: 0 0 0 10px;
+  padding: 0;
+  float: left;
+  position: absolute;
+  font-size: 2em;
+}
+
+.footer {
+  z-index: 1000;
+  left: 5%;
+  bottom: 5%;
+  color: #2c3e50;
+  font-weight: 700;
+  margin: 0 0 0 10px;
+  padding: 0;
+  float: left;
+  position: absolute;
+  font-size: 1em;
+}
+
+.footer a {
+  text-decoration: none;
+}
+
+.footer a:visited {
+  color: #2c3e50;
+}
+
+.footer a:hover {
+  color: rgba(241, 128, 23, 0.9);
+}
+
+.social-link .fa {
+  color: #0078a8;
+}
+
+.social-link .fa:hover {
+  color: rgba(110, 204, 57, 0.6);
+}
+

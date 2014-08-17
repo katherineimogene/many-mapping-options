@@ -1,0 +1,1 @@
+Geocoder.configure({lookup: :esri, timeout: 15})

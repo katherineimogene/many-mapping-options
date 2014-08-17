@@ -1,0 +1,27 @@
+html, body {
+  height: 100%;
+  margin: 0px;
+  padding-top: 30px;
+  font-family: verdana, arial, helvetica, sans-serif;
+}
+
+.container {
+  margin: 20px auto;
+  width: 80%;
+  /*padding: 0px 20px 20px 20px;
+  border: 1px solid #ccc;*/
+}
+
+th {
+  text-align: left;
+}
+
+#map-canvas {
+  height: 720px;
+  width: 80%;
+  border: 1px solid #ccc;
+  margin: 0 auto;
+}
+
+
+
